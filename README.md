@@ -1,22 +1,24 @@
-# Flask Open Weather App 
+# Flask Open Weather App
 
-Aplikacja webowa stworzona w Pythonie z wykorzystaniem frameworka Flask, umożliwiająca wyświetlanie aktualnych informacji o pogodzie dla wybranego miasta, korzystając z API OpenWeatherMap.
+**Flask Open Weather App** to nowoczesna aplikacja webowa stworzona w Pythonie z wykorzystaniem frameworka Flask. Aplikacja pozwala na wyświetlanie aktualnych informacji o pogodzie dla wybranego miasta, korzystając z API OpenWeatherMap.
 
 ## Funkcjonalności
 
-- **Wyszukiwanie pogody**: Użytkownik może wprowadzić nazwę miasta, aby uzyskać aktualne dane pogodowe.
-- **Wyświetlanie danych**: Aplikacja prezentuje temperaturę, wilgotność, ciśnienie oraz opis warunków pogodowych.
+- **Wyszukiwanie pogody**: Użytkownicy mogą wpisać nazwę miasta, aby uzyskać najnowsze dane pogodowe.
+- **Wyświetlanie danych**: Aplikacja prezentuje szczegółowe informacje pogodowe, takie jak temperatura, wilgotność, ciśnienie oraz opis warunków atmosferycznych.
 
 ## Technologie
 
-- **Python**: Język programowania użyty do logiki aplikacji.
-- **Flask**: Lekki framework webowy dla Pythona.
-- **HTML/CSS**: Do tworzenia interfejsu użytkownika.
-- **OpenWeatherMap API**: Źródło danych pogodowych.
+- **Python**: Główny język programowania użyty do implementacji logiki aplikacji.
+- **Flask**: Lekki framework webowy dla Pythona, który wspomaga tworzenie aplikacji internetowych.
+- **HTML/CSS**: Technologie użyte do stworzenia przejrzystego i intuicyjnego interfejsu użytkownika.
+- **OpenWeatherMap API**: Zewnętrzne API dostarczające aktualne dane pogodowe.
+
+## Struktura projektu
 
 Flask_open_weather_app/
 ├── static/
-│   └── styles/
+│ └── styles/
 ├── templates/
 ├── .gitignore
 ├── LICENSE
@@ -24,3 +26,5 @@ Flask_open_weather_app/
 ├── conf.ini
 ├── main.py
 └── requirements.txt
+
+
